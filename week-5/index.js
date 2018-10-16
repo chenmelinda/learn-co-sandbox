@@ -16,8 +16,6 @@ let thirdDiv = document.querySelector('#third-div')
 thirdDiv.appendChild(pTag)
 
 //method chaining
-let firstP = document.querySelector('div p').remove()
+document.querySelector('div p').remove()
 
-let pTag = document.querySelector('div p')
-pTag.remove()
 
